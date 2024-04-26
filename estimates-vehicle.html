@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Shop - Estimates</title>
+    <link href="estimatesStyle.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <header style="position:absolute">
+        <img src="Body shop logo.jpeg" alt="Body Shop Logo" id="logo">
+        <h1 id="Title" style="position: relative; left:115px; top:-95px">Auto Body Shop</h1>
+        <nav>
+            <ul id="nav">
+                <a href="./index.html"><li id="home" class="btn" style="position:relative; left:700px; top:-185px">Home</li></a>
+                <a href="./estimates.html"><li id="estimates" class="btn" style="position:relative; left:825px; top:-227px">Estimates</li></a>
+                <a href="./garage.html"><li id="model" class="btn" style="position:relative; left:950px; top:-269px">3D Model</li></a>
+                <li id="contact" class="btn" style="position:relative; left:1075px; top:-310px">Contact</li>
+                <a href="./gallery.html"><li id="gallery" class="btn" style="position:relative; left:1200px; top:-352px">Gallery</li></a>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body>
+    <h1 id="title">Get Your Free Estimate Here!</h1>
+    <h3 class="infoTitle">Vehicle Info</h3>
+    <form action="./estimate-service.html" method="post">
+        <label for="year" style="color:white">Year</label>
+        <input type="number" id="year" name="year" step="1">
+        <label for="make" style="color:white">Make</label>
+        <select id="make" name="make">
+            <option value="BMW">BMW</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Honda">Honda</option>
+            <option value="Lexus">Lexus</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Ford">Ford</option>
+            <option value="Chevorlet">Chevorlet</option>
+            <option value="Toyota">Toyota</option>
+        </select>
+        <label for="model" style="color:white">Model</label>
+        <input type="text" id="model" name="model">
+        <br>
+        <label for="drivable" style="color:white">Is the car drivable?</label>
+        <input type="radio" id="Yes" name="drivable" value="Yes">
+        <label for="Yes" style="color:white">Yes</label>
+        <input type="radio" id="No" name="drivable" value="No">
+        <label for="No" style="color:white">No</label>
+        <br>
+        <label for="insurance" style="color:white">Will you be using your auto insurance?</label>
+        <input type="radio" id="Yes" name="insurance" value="Yes">
+        <label for="Yes" style="color:white">Yes</label>
+        <input type="radio" id="No" name="insurance" value="No">
+        <label for="No" style="color:white">No</label>
+        <br>
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+
+.btn {
+    border-style: solid;
+    border-color: white;
+    border-radius: 100px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.btn{
+    background-color:#74f0ed;
+    transition: background-color 1s;
+}
+.btn:hover{
+    background-color: black;
+}
+.btn:focus,
+.btn:active{
+    background-color: black;
+    transition: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+Body{
+    background-color: black;
+    margin: 0px auto;
+    height:fit-content;
+    width:auto;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+Header{
+    margin: 0px auto;
+    background-color:  #74f0ed;
+    height: 100px;
+    width: 1435px;
+    border-style: solid;
+    border-color: white;
+}
+#nav{
+    color: white;
+    list-style: none;
+    margin: 50px;
+}
+footer{
+    height: 300px;
+    width:auto;
+    background-color: #74f0ed;
+}
+h1{
+    color:white
+}
+
+.photo{
+    width:200px;
+    height:200px;
+    border: 15px solid #74f0ed;
+    padding: 50px;
+    margin: 20px;
+}
+#Title,
+h2 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ p,
+ li{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
