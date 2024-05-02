@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Shop - Estimates</title>
+    <link href="../CSS/estimatesStyle.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <header style="position:absolute">
+        <img src="../Images/Body shop logo.jpeg" alt="Body Shop Logo" id="logo">
+        <h1 id="Title" style="position: relative; left:115px; top:-95px">Auto Body Shop</h1>
+        <nav>
+            <ul id="nav">
+                <a href="./index.html"><li id="home" class="btn" style="position:relative; left:700px; top:-185px">Home</li></a>
+                <a href="./estimates.html"><li id="estimates" class="btn" style="position:relative; left:825px; top:-227px">Estimates</li></a>
+                <a href="./garage.html"><li id="model" class="btn" style="position:relative; left:950px; top:-269px">3D Model</li></a>
+                <li id="contact" class="btn" style="position:relative; left:1075px; top:-310px">Contact</li>
+                <a href="./gallery.html"><li id="gallery" class="btn" style="position:relative; left:1200px; top:-352px">Gallery</li></a>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body>
+    <h1 id="title" style="position:relative; top:75px">Get Your Free Estimate Here!</h1>
+    <h3 class="infoTitle">Choose Your Service</h3>
+    <p style="color:white">We offer a variety of paint and collision services to suit every budget and all of your vehicle's needs</p>
+    <form action="./Price.html" method="post">
+        <input type="radio" name="service" id="minor" value="minor">
+        <label for="minor" style="color:white"><img src="../Images/Car painting.jpg.webp" width="200px" height="200px"><br>I want to repaint my car or fix minor scratches, peeling, faded, chipped, and/or cracked paint.</label>
+        <br>
+        <input type="radio" name="service" id="med" value="med">
+        <label for="med" style="color:white"><img src="../Images/sanding car.jpeg"><br>I have small dings, small dents, and/or minor rust that need repair.</label>
+        <br>
+        <input type="radio" name="service" id="high" value="high">
+        <label for="high" style="color:white"><img src="../Images/collision damage.jpg.webp" width="200px" height="200px"><br>I have collision related dents, dings, auto body damage, or rust</label>
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>
